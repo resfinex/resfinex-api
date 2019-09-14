@@ -1,4 +1,5 @@
-# Resfinex Practice Trading API
+
+# This repo for build Resfinex API documentation
 
 
-Coming soon ...
+https://docs.resfinex.com/

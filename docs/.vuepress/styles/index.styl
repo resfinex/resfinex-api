@@ -1,0 +1,73 @@
+@require '~vuepress-plugin-tabs/dist/themes/default.styl'
+
+// placeholder for test, dont't remove it.
+
+//.content {
+//  font-size 30px;
+//}
+
+pre.vue-container
+  border-left-width: .5rem;
+  border-left-style: solid;
+  border-color: #42b983;
+  border-radius: 0px;
+  & > code
+    font-size: 14px !important;
+    & > p
+      margin: -5px 0 -20px 0;
+    code
+      background-color: #42b983 !important;
+      padding: 3px 5px;
+      border-radius: 3px;
+      color #000
+    em
+      color #808080
+      font-weight light
+.tabs-component
+  border-radius 4px
+  overflow hidden
+  background #292c34
+  margin-top 1em
+.tabs-component-tabs
+  margin-top 0
+  border none
+  background none
+  border-radius 0
+  padding 0.3em 0.6em
+  border-bottom rgba(255, 255, 255, 0.3) solid 2px
+  text-transform uppercase
+  justify-context flex-end
+  .tabs-component-tab
+    font-size 0.7rem
+    background none
+    border none
+.tabs-component-panels
+  border none
+  padding 0
+  div[class*="language-"]
+    margin 0
+    border-radius 0
+    pre[class*="language-"]
+      margin 0
+      border-radius 0
+
+div.request
+  &:before
+    color white
+    padding 0.2em 0.6em
+    font-size 0.8rem
+    font-weight bold
+    border-radius 3px
+    float left
+    margin 0.3em
+    margin-left 0
+  &.GET:before
+    content "GET"
+    background #3eaf7c
+  &.POST:before
+    content "POST"
+    background #e7c000
+table
+  font-size 0.9rem
+pre
+  font-size 0.9rem !important

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "doc-resfinex": "turing-zone-232907"
+  },
+  "targets": {
+    "turing-zone-232907": {
+      "hosting": {
+        "doc-resfinex": [
+          "doc-resfinex"
+        ]
+      }
+    }
+  }
+}

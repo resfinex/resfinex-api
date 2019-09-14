@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "dist",
+    "target": "doc-resfinex",
+    "ignore": [
+      "firebase.json",
+      "package.json",
+      "package-lock.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
